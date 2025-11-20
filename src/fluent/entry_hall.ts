@@ -10,8 +10,9 @@ export class EntryHall {
   }
 
   entryBathroom() {
+    //metoda
     console.log(`Návštěvník ${this.visitorName} jde na toaletu.`);
-    return new Bathroom(this.visitorName);
+    return new Bathroom(this.visitorName); //výsledek metody je nobý objekt
   }
   askReceptionistQuestion(question: string) {
     console.log(`${this.visitorName} se ptá recepční na otázku: ${question}`);

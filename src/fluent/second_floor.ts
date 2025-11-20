@@ -2,9 +2,10 @@ import { EntryHall } from "./entry_hall.ts";
 
 export class SecondFloor {
   readonly visitorName: string;
+
   constructor(visitorName: string) {
     this.visitorName = visitorName;
-    console.log(`Návštěvník ${visitorName}vstoupil/a na toalety`);
+    console.log(`Návštěvník ${visitorName}vstoupil/a na do druhého patra`);
   }
 
   async lookAround(length: number): Promise<this> {
